@@ -1,0 +1,22 @@
+Starting the 'eRaporSMKWebSrv' service
+The 'eRaporSMKWebSrv' service is running.
+ermine the server's fully qualified domain name, using fe80::e849:719d:305f:ce87. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 24 08:37:37.881150 2022] [mpm_winnt:notice] [pid 680:tid 972] AH00455: Apache/2.4.43 (Win64) PHP/7.4.30 configured -- resuming normal operations
+[Thu Nov 24 08:37:37.912391 2022] [mpm_winnt:notice] [pid 680:tid 972] AH00456: Apache Lounge VC15 Server built: Apr  1 2020 11:30:24
+[Thu Nov 24 08:37:37.912391 2022] [core:notice] [pid 680:tid 972] AH00094: Command line: 'C:\\eRaporSMK\\webserver\\bin\\httpd.exe -d C:/eRaporSMK/webserver'
+[Thu Nov 24 08:37:37.959296 2022] [mpm_winnt:notice] [pid 680:tid 972] AH00418: Parent: Created child process 6128
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e849:719d:305f:ce87. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e849:719d:305f:ce87. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 24 08:37:40.631149 2022] [mpm_winnt:notice] [pid 6128:tid 916] AH00354: Child: Starting 64 worker threads.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e849:719d:305f:ce87. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 24 16:50:20.601618 2022] [core:warn] [pid 2332:tid 620] AH00098: pid file C:/eRaporSMK/webserver/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 24 16:50:26.502580 2022] [mpm_winnt:notice] [pid 2332:tid 620] AH00455: Apache/2.4.43 (Win64) PHP/7.4.30 configured -- resuming normal operations
+[Thu Nov 24 16:50:26.502580 2022] [mpm_winnt:notice] [pid 2332:tid 620] AH00456: Apache Lounge VC15 Server built: Apr  1 2020 11:30:24
+[Thu Nov 24 16:50:26.502580 2022] [core:notice] [pid 2332:tid 620] AH00094: Command line: 'C:\\eRaporSMK\\webserver\\bin\\httpd.exe -d C:/eRaporSMK/webserver'
+[Thu Nov 24 16:50:26.502580 2022] [mpm_winnt:notice] [pid 2332:tid 620] AH00418: Parent: Created child process 4140
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e849:719d:305f:ce87. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::e849:719d:305f:ce87. Set the 'ServerName' directive globally to suppress this message
+[Thu Nov 24 16:50:29.658831 2022] [mpm_winnt:notice] [pid 4140:tid 904] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 25 06:28:13.893200 2022] [mpm_winnt:notice] [pid 2332:tid 620] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Nov 25 06:28:15.924454 2022] [mpm_winnt:notice] [pid 4140:tid 904] AH00364: Child: All worker threads have exited.
+[Fri Nov 25 06:28:15.971324 2022] [mpm_winnt:notice] [pid 2332:tid 620] AH00430: Parent: Child process 4140 exited successfully.
